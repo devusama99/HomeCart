@@ -1,0 +1,165 @@
+$color-primary:#c69963;;
+$color-primary-dark:#b28451;
+
+$color-secondary:#101d2c;
+
+$color-white:#ffffff;
+
+$color-light-1:#f5e2cd;
+$color-light-2:#faddbd;
+
+$color-grey-1:#f1f1f1;
+$color-grey-2:#97897a;
+$color-grey-3:#5c544c;
+
+$color-dark-1:#444;
+$color-dark-4:#333;
+$color-dark-2:#222;
+$color-dark-3:#111;
+
+$color-black:#000;
+
+$font-primary:'Nunito', sans-serif;
+$font-secondary:'Josefin Sans', sans-serif;
+
+
+.heading-1
+{
+    display: inline-block;
+    line-height: 1;
+    font-size: 4.5rem;
+    color: $color-light-1;
+    font-weight: 500;
+    font-family: $font-secondary;
+    &__light
+    {
+        color: $color-light-1;
+    }
+    &__dark
+    {
+        color: $color-dark-3;
+    }
+    &__primary-color
+    {
+        color:$color-primary;
+    }
+}
+.heading-2
+{
+    display: inline-block;
+    font-size:3.5rem;
+    font-style: italic;
+    color: $color-dark-2;
+    line-height: 1.1;
+    font-weight: 500;
+    font-family: $font-secondary;
+    
+    &__light
+    {
+        color: $color-light-1;
+    }
+    &__dark
+    {
+        color: $color-dark-3;
+    }
+    &__primary-color
+    {
+        color:$color-primary;
+    }
+}
+.heading-3
+{
+    display: inline-block;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: $color-dark-2;
+    font-weight: 500;
+    font-family: $font-secondary;
+    text-transform:uppercase;
+    &__light
+    {
+        color: $color-light-1;
+    }
+    &__dark
+    {
+        color: $color-dark-3;
+    }
+    &__primary-color
+    {
+        color:$color-primary;
+    }
+}
+.heading-4
+{
+    display: inline-block;
+    font-size: 1.7rem;
+    color: $color-dark-2;
+    font-weight: 500;
+    font-family: $font-secondary;
+    text-transform:uppercase;
+    &__light
+    {
+        color: $color-light-1;
+    }
+    &__dark
+    {
+        color: $color-dark-3;
+    }
+    &__primary-color
+    {
+        color:$color-primary;
+    }
+}
+.mb-s
+{
+    margin-bottom: 2rem;
+}
+.mb-m
+{
+    margin-bottom: 3rem;
+}
+.mb-l
+{
+    margin-bottom: 4rem;
+}
+.mb-xl
+{
+    margin-bottom: 8rem;
+}
+.btn
+{
+    background: linear-gradient(to right , $color-primary, $color-primary-dark);
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 0.5rem 1rem rgba($color-dark-2, 0.3);
+    font-size: 1.3rem;
+    color: $color-white;
+    font-family: $font-primary;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1.4rem 1.8rem;
+    cursor: pointer;
+    transition: all 0.2s ;
+    a
+    {
+        text-decoration: none;
+        color: inherit;
+        font-family: inherit;
+
+    }
+
+    &:hover
+    {
+        background: linear-gradient(to left , $color-primary, $color-primary-dark);
+        transform: translateY(3px);
+    }
+    &:active
+    {
+        transform: translateY(1px);
+    }
+}
+.header__btn
+{
+    align-self: flex-start;
+    justify-self: flex-start;
+}
